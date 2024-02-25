@@ -3,7 +3,7 @@
 import rclpy
 from rclpy.node import Node
 import cv2
-from interfaces_pkg.msg import StudentSpec
+from debugging_pkg.msg import StudentSpec
 
 class SubscriberNode(Node):
     def __init__(self):
