@@ -5,7 +5,7 @@ import torch
 import rclpy
 import warnings
 from ultralytics import YOLO
-from interfaces_pkg.msg import StudentSpec
+from debugging_pkg.msg import StudentSpec
 warnings.filterwarnings("ignore", category=UserWarning, module="matplotlib")
 
 def main():
